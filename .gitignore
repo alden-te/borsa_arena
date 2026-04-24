@@ -1,0 +1,28 @@
+# Secrets - ASLA GitHub'a yükleme!
+.streamlit/secrets.toml
+
+# Python
+__pycache__/
+*.pyc
+*.pyo
+.env
+venv/
+.venv/
+*.egg-info/
+dist/
+build/
+
+# Data cache
+*.csv
+*.pkl
+*.parquet
+data/cache/
+
+# IDE
+.vscode/
+.idea/
+*.swp
+
+# OS
+.DS_Store
+Thumbs.db
